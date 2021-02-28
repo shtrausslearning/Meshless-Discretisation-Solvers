@@ -1,0 +1,5 @@
+   Boundary Segment              Boundary Condition
+               1                 "slip_wall_weak"  
+               2                 "freestream"      
+               3                 "freestream"      
+               4                 "freestream"      

@@ -1,0 +1,173 @@
+{
+  "Root":{
+    "Folders":[{
+        "Folders":[],
+        "Name":"+lsMeshless",
+        "Files":[{
+            "filename":"src/lseotls.f90",
+            "enabled":"1"
+          },{
+            "filename":"src/lsopls.f90",
+            "enabled":"1"
+          },{
+            "filename":"src/lsotls.f90",
+            "enabled":"1"
+          }]
+      },{
+        "Folders":[],
+        "Name":"+modules",
+        "Files":[{
+            "filename":"src/mod_constants.f90",
+            "enabled":"1"
+          },{
+            "filename":"src/mod_dynArrAlloc.f90",
+            "enabled":"1"
+          },{
+            "filename":"src/mod_GRID.f90",
+            "enabled":"1"
+          },{
+            "filename":"src/mod_gridDataType.f90",
+            "enabled":"1"
+          },{
+            "filename":"src/mod_matrix.f90",
+            "enabled":"1"
+          },{
+            "filename":"src/mod_ParamArrays.f90",
+            "enabled":"1"
+          },{
+            "filename":"src/mod_prmflow.f90",
+            "enabled":"1"
+          }]
+      },{
+        "Folders":[],
+        "Name":"+newGCgen",
+        "Files":[{
+            "filename":"src/gcidRSgen.f90",
+            "enabled":"1"
+          },{
+            "filename":"src/gcnxny.f90",
+            "enabled":"1"
+          }]
+      },{
+        "Folders":[],
+        "Name":"+oldGCgen",
+        "Files":[]
+      }],
+    "Name":"+main (target.exe)",
+    "Files":[{
+        "filename":"src/allocSolver.f90",
+        "enabled":"1"
+      },{
+        "filename":"src/cirs.f90",
+        "enabled":"1"
+      },{
+        "filename":"src/convergence.f90",
+        "enabled":"1"
+      },{
+        "filename":"src/dependentVars.f90",
+        "enabled":"1"
+      },{
+        "filename":"src/fluxes.f90",
+        "enabled":"1"
+      },{
+        "filename":"src/forces.f90",
+        "enabled":"1"
+      },{
+        "filename":"src/gSolver.f90",
+        "enabled":"1"
+      },{
+        "filename":"src/gtimestep.f90",
+        "enabled":"1"
+      },{
+        "filename":"src/initConstants.f90",
+        "enabled":"1"
+      },{
+        "filename":"src/initialSolulution.f90",
+        "enabled":"1"
+      },{
+        "filename":"src/initialsolution.f90",
+        "enabled":"1"
+      },{
+        "filename":"src/inputs.f90",
+        "enabled":"1"
+      },{
+        "filename":"src/lsqEDGE.f90",
+        "enabled":"1"
+      },{
+        "filename":"src/out_tecplot.f90",
+        "enabled":"1"
+      },{
+        "filename":"src/plotSurfaces.f90",
+        "enabled":"1"
+      },{
+        "filename":"src/PPtype.f90",
+        "enabled":"1"
+      },{
+        "filename":"src/preRgrid.f90",
+        "enabled":"1"
+      },{
+        "filename":"src/program.f90",
+        "enabled":"1"
+      },{
+        "filename":"src/Rgrid.f90",
+        "enabled":"1"
+      },{
+        "filename":"src/solver.f90",
+        "enabled":"1"
+      },{
+        "filename":"src/wgcBCv2.f90",
+        "enabled":"1"
+      }]
+  },
+  "Name":"main (target.exe)",
+  "Options":{
+    "Compiler Options":{
+      "Fortran Flags":"",
+      "Link Flags":"",
+      "C Flags":""
+    },
+    "Architecture":1,
+    "Type":0,
+    "Revision":2,
+    "Windows GUI":0,
+    "File Options":{
+      "Library Directories":["Default Add-On Directory"],
+      "Build Directory":"build",
+      "Module Directory":"modules",
+      "Include Directories":["Default Add-On Include Directory"]
+    },
+    "Target":"target.exe",
+    "Fortran Options":{
+      "Use C Preprocessor":"false",
+      "Runtime Diagnostics":"false",
+      "Cray Pointers":"false",
+      "Enable OpenMP":"false",
+      "Enable Coarrays":"false",
+      "Default Double for Real":"false"
+    },
+    "Code Generation Options":{
+      "CPU Specific":"false",
+      "Processor":"generic",
+      "Aggressive Loops":"false",
+      "Debugging":"true",
+      "Optimization Mode":0,
+      "Profiling":"false"
+    },
+    "Build Dependencies":1,
+    "Launch Options":{
+      "Working Directory":"",
+      "Keep Console":"true",
+      "External Console":"false",
+      "Command Line Arguments":"",
+      "Build Before Launch":"true"
+    },
+    "Build Options":{
+      "Makefile":"Makefile",
+      "Auto Makefile":"true"
+    },
+    "Linker Options":{
+      "Static Linking Mode":7,
+      "Link LAPACK":0
+    }
+  }
+}
