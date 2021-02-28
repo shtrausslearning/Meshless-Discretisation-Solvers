@@ -1,0 +1,19 @@
+titlename                   ! case name
+n00.grid                    ! input grid
+n00.bcmap                   ! input BC
+n00.dat    					! ouptut Tecplot
+0.5                             ! Minf
+0.0								! angle (deg)
+1.4                             ! gamma
+4.0                             ! CFL
+50000                            ! max iterations
+300                              ! flowfield outstep
+1.0e-6                          ! convergence tolerance
+4                               ! number of conservative variables
+rhll								! inviscid flux type (roe/rhll)
+none							! 2nd order gradient type (none/linear/quadratic2)
+none                            ! 2nd order limiter (none/vanalbada)
+none							! gradient weight (none/inverse_distance)
+0								! value of IDW p constant
+2                               ! cirs iterations
+0.5                             ! cirs coefficient (epsirs)
