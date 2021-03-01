@@ -1,1 +1,1 @@
-Structures Type Meshless Euler Solver Coding Example
+Structures Type 2D Meshless Euler Solver Coding Example
