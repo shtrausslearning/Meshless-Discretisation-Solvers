@@ -1,0 +1,124 @@
+{
+  "Root":{
+    "Folders":[],
+    "Name":"+gladv2d (target)",
+    "Files":[{
+        "filename":"src/AdvecVel.f90",
+        "enabled":"1"
+      },{
+        "filename":"src/covariance.f90",
+        "enabled":"1"
+      },{
+        "filename":"src/Gradients.f90",
+        "enabled":"1"
+      },{
+        "filename":"src/InitTimeStep.f90",
+        "enabled":"1"
+      },{
+        "filename":"src/LeastSquares.f90",
+        "enabled":"1"
+      },{
+        "filename":"src/LSCoeff.f90",
+        "enabled":"1"
+      },{
+        "filename":"src/lsCWTLS.f90",
+        "enabled":"1"
+      },{
+        "filename":"src/lsPLS.f90",
+        "enabled":"1"
+      },{
+        "filename":"src/lsTLS.f90",
+        "enabled":"1"
+      },{
+        "filename":"src/main.f90",
+        "enabled":"1"
+      },{
+        "filename":"src/matrix.f90",
+        "enabled":"1"
+      },{
+        "filename":"src/matrix_inversion2.f90",
+        "enabled":"1"
+      },{
+        "filename":"src/matrix_inversion3.f90",
+        "enabled":"1"
+      },{
+        "filename":"src/matrix_inversion4.f90",
+        "enabled":"1"
+      },{
+        "filename":"src/matrix_inversion5.f90",
+        "enabled":"1"
+      },{
+        "filename":"src/prm_flow.f90",
+        "enabled":"1"
+      },{
+        "filename":"src/ptsconn.f90",
+        "enabled":"1"
+      },{
+        "filename":"src/Residual.f90",
+        "enabled":"1"
+      },{
+        "filename":"src/SetInitCond.f90",
+        "enabled":"1"
+      },{
+        "filename":"src/Solve.f90",
+        "enabled":"1"
+      },{
+        "filename":"src/Update.f90",
+        "enabled":"1"
+      },{
+        "filename":"src/WriteResult.f90",
+        "enabled":"1"
+      }]
+  },
+  "Name":"gladv2d (target)",
+  "Options":{
+    "Compiler Options":{
+      "Fortran Flags":"",
+      "Link Flags":"",
+      "C Flags":""
+    },
+    "Architecture":0,
+    "Type":0,
+    "Revision":2,
+    "Windows GUI":0,
+    "File Options":{
+      "Library Directories":["Default Library Directory"],
+      "Build Directory":"build",
+      "Module Directory":"modules",
+      "Include Directories":["Default Include Directory"]
+    },
+    "Target":"target",
+    "Fortran Options":{
+      "Use C Preprocessor":"false",
+      "Runtime Diagnostics":"false",
+      "Cray Pointers":"false",
+      "Enable OpenMP":"false",
+      "Enable Coarrays":"false",
+      "Default Double for Real":"false"
+    },
+    "Code Generation Options":{
+      "CPU Specific":"false",
+      "Processor":"generic",
+      "Aggressive Loops":"false",
+      "Debugging":"true",
+      "Optimization Mode":0,
+      "Profiling":"false"
+    },
+    "Build Dependencies":1,
+    "Launch Options":{
+      "Working Directory":"",
+      "Keep Console":"true",
+      "External Console":"false",
+      "Command Line Arguments":"",
+      "Build Before Launch":"true"
+    },
+    "Build Options":{
+      "Makefile":"Makefile",
+      "Auto Makefile":"true"
+    },
+    "Linker Options":{
+      "Static Linking Mode":7,
+      "Link LAPACK":0
+    }
+  }
+}
